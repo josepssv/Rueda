@@ -207,6 +207,7 @@ for (var a = 0; a < usuario.length; a++) {
 }
 var cad = ''
 var diass = ['', 'l', 'm', 'x', 'j', 'v']
+function llena(){
 var nsomos = 0;
 for (var a = 1; a < 6; a++) {
   nsomos = e[a][1].length
@@ -230,7 +231,7 @@ for (var a = 1; a < 6; a++) {
   $('#' + diass[a] + '6').html(cad)
 
 }
-
+}
 function recopilaEntrada(a, b, n) {
   var cad = ''
   var cssprev = '<u><b>'
@@ -277,12 +278,6 @@ function recopilaSalida(a, b, n) {
   return cad
 }
 
-
-/*  cad = s[2][6]
-$('#m6').html(cad)
-for(var a=3;a<7;a++){
- cad=''
- cad+=s[a]
- $('#l'+a).html(cad)
- }  
- */
+$(document).ready(function(){
+llena()
+});
