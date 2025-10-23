@@ -8,7 +8,7 @@ Los ficheros se deben de guardar en el directorio "ruedas" numerados desde el un
 2.js
 3.js
 
-Un hueco entre los número no funcionaría:
+Un hueco entre los números no funcionaría:
 
 1.js
 3.js
